@@ -1,4 +1,4 @@
-name: ✨ Update GitHub Activity
+name: 🪄 Update GitHub Activity
 
 on:
   schedule:
@@ -9,15 +9,11 @@ permissions:
   contents: write
 
 jobs:
-  update-readme:
+  update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Update README with recent activity
-        uses: jamesgeorge007/github-activity-readme@v0.3.0
+      - name: 🧩 Generate activity feed
+        uses: Readme-Workflows/recent-activity@v2.7.1
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: stefanstan2402
-          COMMIT_MSG: "⚡ Update README with recent activity"
+          MAX_LINES: 5
