@@ -1,7 +1,7 @@
 <h1 align="center">👋 Hi, I'm Stefan Stan</h1>
 
 <p align="center">
-  💻 Full-Stack Developer | 🚀 Laravel, Vue & Angular | ⚙️ .NET & PostgreSQL Engineer  
+  💻 Full-Stack Developer | 🚀 Passionate about Laravel, Vue, Angular & .NET | ⚙️ Turning ideas into software
 </p>
 
 ---
