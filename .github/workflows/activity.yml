@@ -20,3 +20,5 @@ jobs:
         with:
           GH_USERNAME: stefanstan2402
           COMMIT_MSG: "⚡ Update README with recent activity"
+        env:
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
