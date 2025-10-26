@@ -25,36 +25,24 @@
 
 ---
 
-### 🧩 Featured Project — CareerForge
+### 🧩 Featured Projects
 
 <p align="center">
   <a href="https://github.com/stefanstan2402/CareerForge">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=stefanstan2402&repo=CareerForge&theme=tokyonight" />
+    <img src="https://img.shields.io/badge/CareerForge-Private_Project-blueviolet?style=for-the-badge&logo=github" />
   </a>
-</p>
-
-<p align="center">
-  🚀 <b>CareerForge</b> — A multi-tenant SaaS platform for managing employee personal development, integrating tasks, courses, and AI-driven insights to boost productivity and engagement.
-</p>
-
----
-
-### 💡 Other Projects
-
-<p align="center">
   <a href="https://github.com/stefanstan2402/forum-anunturi">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=stefanstan2402&repo=forum-anunturi&theme=tokyonight" />
+    <img src="https://img.shields.io/badge/Forum%20Anunturi-Private_Project-blue?style=for-the-badge&logo=github" />
   </a>
   <a href="https://github.com/stefanstan2402/vue-task-manager">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=stefanstan2402&repo=vue-task-manager&theme=tokyonight" />
+    <img src="https://img.shields.io/badge/Vue%20Task%20Manager-Private_Project-green?style=for-the-badge&logo=vue.js" />
   </a>
 </p>
 
 <p align="center">
-  🧠 Small experiments and side projects — exploring new frameworks, improving workflow automation, and building creative prototypes.
+  🚀 Full-stack and experimental apps exploring advanced UI, task automation, and learning systems.
 </p>
 
----
 
 ### 🏆 GitHub Achievements
 
