@@ -6,14 +6,14 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write  # allow the workflow to push changes
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout the repository
+      - name: Checkout repository
         uses: actions/checkout@v4
         with:
           persist-credentials: false
@@ -24,11 +24,17 @@ jobs:
           github_user_name: stefanstan2402
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Commit and push the generated snake
+      - name: Fix permissions and move output
+        run: |
+          sudo chmod -R 777 dist
+          mkdir -p temp
+          mv dist/github-contribution-grid-snake.svg temp/
+
+      - name: Commit and push generated snake
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd dist
+          cd temp
           git init
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
