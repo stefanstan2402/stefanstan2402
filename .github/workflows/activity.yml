@@ -18,7 +18,6 @@ jobs:
       - name: Update README with recent activity
         uses: jamesgeorge007/github-activity-readme@v0.3.0
         with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_USERNAME: stefanstan2402
           COMMIT_MSG: "⚡ Update README with recent activity"
-        env:
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
