@@ -44,10 +44,10 @@
 </p>
 
 
-### 🏆 GitHub Achievements
+##### 🏆 GitHub Achievements
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=stefanstan2402&theme=onedark&no-frame=true&margin-w=15" />
+  <img src="https://github-profile-trophy.vercel.app/?username=stefanstan2402&theme=tokyonight&no-frame=true&margin-w=15&row=1&column=6" />
 </p>
 
 ---
