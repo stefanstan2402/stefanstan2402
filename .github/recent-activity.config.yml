@@ -1,10 +1,8 @@
-# List of events to show in your README activity section
-# You can customize which events appear
-# All supported events: 
-# issue, pr, pull_request, fork, push, release, commit_comment, member, create, delete, watch
-
 repositories:
   - stefanstan2402
+
+ignored_repos:
+  - stefanstan2402/stefanstan2402  # 👈 ignore your profile repo
 
 events:
   - issue
