@@ -43,6 +43,16 @@
   🚀 Full-stack and experimental apps exploring advanced UI, task automation, and learning systems.
 </p>
 
+---
+
+### 🧠 Recent GitHub Activity
+
+<p align="center">
+  <!--RECENT_ACTIVITY:start-->
+  <!--RECENT_ACTIVITY:end-->
+</p>
+
+---
 
 ### 🏆 GitHub Achievements
 
@@ -73,7 +83,6 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/stefanstan2402/stefanstan2402/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
-
 
 ---
 
