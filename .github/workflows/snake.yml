@@ -2,36 +2,38 @@ name: Generate Snake 🐍
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # runs daily at midnight UTC
+    - cron: "0 0 * * *" # runs daily at midnight UTC
   workflow_dispatch:
 
 permissions:
-  contents: write  # ✅ needed to push to output branch
+  contents: write  # allow the workflow to push changes
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
 
     steps:
-      - name: 🧩 Checkout repository
+      - name: Checkout the repository
         uses: actions/checkout@v4
         with:
           persist-credentials: false
 
-      - name: 🐍 Generate contribution snake
+      - name: Generate snake animation
         uses: Platane/snk@v3
         with:
           github_user_name: stefanstan2402
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: 🚀 Push snake animation to output branch
+      - name: Commit and push the generated snake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          cd dist
+          git init
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout --orphan output
-          git rm -rf .
-          mv dist/github-contribution-grid-snake.svg .
-          git add github-contribution-grid-snake.svg
-          git commit -m "Generated snake animation"
-          git push -f https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/stefanstan2402/stefanstan2402.git output
+          git add .
+          git commit -m "Generate snake animation"
+          git branch -M output
+          git remote add origin https://x-access-token:${GITHUB_TOKEN}@github.com/stefanstan2402/stefanstan2402.git
+          git push -f origin output
