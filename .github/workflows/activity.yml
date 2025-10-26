@@ -1,0 +1,15 @@
+name: 🪄 Update GitHub Activity
+
+on:
+  schedule:
+    - cron: '0 * * * *' # every hour
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: jamesgeorge007/github-activity-readme@v0.3.0
+        with:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
