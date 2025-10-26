@@ -1,0 +1,16 @@
+# List of events to show in your README activity section
+# You can customize which events appear
+# All supported events: 
+# issue, pr, pull_request, fork, push, release, commit_comment, member, create, delete, watch
+
+repositories:
+  - stefanstan2402
+
+events:
+  - issue
+  - pr
+  - pull_request
+  - push
+  - release
+
+max_lines: 5
