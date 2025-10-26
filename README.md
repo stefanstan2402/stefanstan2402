@@ -58,7 +58,7 @@
   <a href="https://linkedin.com/in/stefan-stan" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="mailto:stefanstan2402@gmail.com">
+  <a href="mailto:stan.stefan240@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
 </p>
@@ -66,3 +66,12 @@
 ---
 
 <p align="center">⭐️ From <a href="https://github.com/stefanstan2402">stefanstan2402</a></p>
+
+---
+
+### 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://github.com/stefanstan2402/stefanstan2402/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
+</p>
+
