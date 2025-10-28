@@ -43,22 +43,6 @@
   🚀 Full-stack and experimental apps exploring advanced UI, task automation, and learning systems.
 </p>
 
----
-
-### 🧠 Recent GitHub Activity
-
-<p align="center">
-  <!--RECENT_ACTIVITY:start-->
-1. ⬆️ Pushed undefined commit(s) to [stefanstan2402/stefanstan2402](https://github.com/stefanstan2402/stefanstan2402)<br>
-2. ⬆️ Pushed undefined commit(s) to [stefanstan2402/stefanstan2402](https://github.com/stefanstan2402/stefanstan2402)<br>
-3. ⬆️ Pushed undefined commit(s) to [stefanstan2402/stefanstan2402](https://github.com/stefanstan2402/stefanstan2402)<br>
-4. ⬆️ Pushed undefined commit(s) to [stefanstan2402/stefanstan2402](https://github.com/stefanstan2402/stefanstan2402)<br>
-5. ⬆️ Pushed undefined commit(s) to [stefanstan2402/stefanstan2402](https://github.com/stefanstan2402/stefanstan2402)<br>
-  <!--RECENT_ACTIVITY:end-->
-</p>
-
----
-
 ### 🏆 GitHub Achievements
 
 <p align="center">
