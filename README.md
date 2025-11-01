@@ -59,14 +59,6 @@
 
 ---
 
-### 🔥 Contribution Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=stefanstan2402&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
 ### 🐍 Contribution Snake
 
 <p align="center">
